@@ -49,7 +49,7 @@ export const ImageGrid: React.FC<ImageGridProps> = ({
             alt={image.alt_description || 'Unsplash image'}
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200" />
+          <div className="absolute inset-0 bg-black/20 bg-opacity-0 group-hover:bg-opacity-20 transition-all duration-200" />
         </button>
       ))}
     </div>

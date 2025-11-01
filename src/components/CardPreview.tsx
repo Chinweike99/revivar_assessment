@@ -55,7 +55,7 @@ export const CardPreview: React.FC<CardPreviewProps> = ({
 
   if (!design) {
     return (
-      <div className="w-full max-w-md aspect-[4/5] bg-gray-100 rounded-lg flex items-center justify-center">
+      <div className="w-full  aspect-[4/5]  bg-gray-100 rounded-lg flex items-center justify-center">
         <p className="text-gray-500 text-lg">Select an image to preview your card</p>
       </div>
     );
@@ -63,7 +63,7 @@ export const CardPreview: React.FC<CardPreviewProps> = ({
 
   return (
     <div className="space-y-4">
-      <div className="relative w-full max-w-md aspect-[4/5] bg-white rounded-lg shadow-xl overflow-hidden">
+      <div className="relative w-full aspect-[4/5] bg-white rounded-lg shadow-xl overflow-hidden">
         <canvas
           ref={canvasRef}
           className="w-full h-full"
